@@ -32,11 +32,19 @@ body{
 .postal-contenido-icons{
     display: flex;
     flex-direction:row;
-    justify-content: flex-start;
+    
+    
 }
 
-.postal-contenido-icons #right{
+#left1,
+#left2,
+#left3{
+    
+    background-color: red;
+    justify-self: flex-start;
+}
+#right1{
     
     background-color: green;
-    justify-content: flex-end;
+    justify-self: flex-end;
 }
