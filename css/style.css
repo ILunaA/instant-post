@@ -5,16 +5,38 @@ body{
 
 .postal{
     background-color: white;
-    margin: 10%;
+    border:20% 30%;
+    margin: auto ;
+    width: 600px;
+}
+
+.postal-header{
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-start;
+}
+
+.postal-header .subtitle{
+    display: flex;
+    flex-direction:column;
 }
 
 .postal-imagen {
+
     margin: auto;
+    max-width: 600px;
+    object-fit: cover;
+    overflow: hidden; 
 }
 
 .postal-contenido-icons{
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-start;
+}
+
+.postal-contenido-icons #right{
     
-    background-color: yellow;
-    color: aqua;
-    border: 5px;
+    background-color: green;
+    justify-content: flex-end;
 }
