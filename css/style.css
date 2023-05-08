@@ -1,0 +1,20 @@
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: black;
+}
+
+.postal{
+    background-color: white;
+    margin: 10%;
+}
+
+.postal-imagen {
+    margin: auto;
+}
+
+.postal-contenido-icons{
+    
+    background-color: yellow;
+    color: aqua;
+    border: 5px;
+}
