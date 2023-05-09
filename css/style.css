@@ -31,19 +31,17 @@ body{
 
 .postal-contenido-icons{
     display: flex;
-    flex-direction:row;
+    justify-content: space-between;
     
     
 }
 
-#left1,
-#left2,
-#left3{
+.postal-contenido-icons-left{
     
     background-color: red;
     justify-self: flex-start;
 }
-#right1{
+.postal-contenido-icons-right{
     
     background-color: green;
     justify-self: flex-end;
