@@ -1,3 +1,7 @@
+*{
+  font-family: 'Roboto', sans-serif;
+}
+
 body{
     font-family: 'Noto Sans JP', sans-serif;
     background-color: black;
@@ -16,7 +20,7 @@ body{
     justify-content: space-between;
     padding: 2%;
 
-    
+
 
 }
 
@@ -25,9 +29,9 @@ body{
     display: grid;
     grid-template-columns: 1fr 1.5fr;
     grid-template-rows:  1fr 1fr;
-    
 
-    gap: 0.1rem;
+
+    gap: 0.0rem;
     height: 5vh;
 
 
@@ -39,9 +43,9 @@ body{
 }
 
 .postal-header-left i{
-    font-size: 3.0em;
+    font-size: 2.5em;
     grid-row: span 2;
-    
+
 
 
 }
@@ -56,9 +60,17 @@ h2.subtitle{
 
 }
 
-h2.superbold{
-    font-weight:900;
+p.subtitle{
+    display: block;
+    font-size: 1.0rem;
+    margin-block-start: 0.0rem;
+    margin-block-end: 0.2rem;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
 }
+
+
 
 
 /*h2 {
